@@ -1,5 +1,8 @@
 {
     "project_name": "New and Interesting Project Name",
     "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
-    "org_name": "Lunar Engineering"
+    "project_purpose": "A five second description of the project.",
+    "org_name": "Lunar Engineering",
+    "org_slug": "{{ cookiecutter.org_name|lower|replace(' ', '-') }}",
+    "year": "2021"
 }
