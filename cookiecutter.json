@@ -1,4 +1,5 @@
 {
-    "org_name": "Lunar Engineering",
-    "repo_name": "New and Interesting Project Name"
+    "project_name": "New and Interesting Project Name",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "org_name": "Lunar Engineering"
 }
